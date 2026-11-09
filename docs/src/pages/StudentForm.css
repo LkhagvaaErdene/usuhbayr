@@ -1,0 +1,79 @@
+.form-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+}
+
+.form-container h1 {
+  text-align: center;
+  color: #245c43;
+  font-size: 24px;
+}
+
+.form-container label {
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.form-container input:not([type="checkbox"]),
+.form-container select,
+.form-container textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.form-container textarea {
+  resize: vertical;
+}
+
+.form-container .checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: normal;
+}
+
+.form-container button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  color: white;
+  background: #28784f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-container button:hover {
+  background: #1c5c3a;
+}
+
+.error {
+  margin: 5px 0 0;
+  color: #c62828;
+  font-size: 13px;
+}
+
+.result {
+  margin-top: 24px;
+  padding: 16px;
+  background: #f0f7f2;
+  border-radius: 6px;
+  overflow-wrap: anywhere;
+}
+
+.result h2 {
+  color: #245c43;
+  font-size: 20px;
+}

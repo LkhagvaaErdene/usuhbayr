@@ -1,0 +1,93 @@
+.page {
+  padding: 40px 7%;
+  background-color: #f9f9f9;
+  min-height: 60vh;
+}
+
+.page-intro {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.06);
+}
+
+.page-intro h1 {
+  color: #176b3a;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.page-intro h2 {
+  color: #176b3a;
+  font-size: 22px;
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+.page-intro p {
+  line-height: 1.8;
+  margin-bottom: 16px;
+  color: #333;
+  font-size: 16px;
+}
+
+.page-intro ul {
+  line-height: 1.9;
+  color: #333;
+  padding-left: 22px;
+}
+
+.page-intro li {
+  margin-bottom: 8px;
+}
+
+.page-intro a {
+  color: #176b3a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.page-intro a:hover {
+  text-decoration: underline;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.info-card {
+  background: #f0f7f2;
+  border-left: 4px solid #176b3a;
+  padding: 18px 20px;
+  border-radius: 8px;
+}
+
+.info-card h3 {
+  margin: 0 0 8px;
+  color: #176b3a;
+  font-size: 18px;
+}
+
+.page-intro .info-card p {
+  margin: 0;
+  font-size: 15px;
+  color: #444;
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: 25px 5%;
+  }
+  .page-intro {
+    padding: 20px;
+  }
+  .page-intro h1 {
+    font-size: 26px;
+  }
+}
